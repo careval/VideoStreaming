@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B22C244C1AC7A46D00B59FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C244B1AC7A46D00B59FAC /* main.m */; };
+		B22C244F1AC7A46D00B59FAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C244E1AC7A46D00B59FAC /* AppDelegate.m */; };
+		B22C24521AC7A46D00B59FAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24511AC7A46D00B59FAC /* ViewController.m */; };
+		B22C24551AC7A46D00B59FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22C24531AC7A46D00B59FAC /* Main.storyboard */; };
+		B22C24571AC7A46D00B59FAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22C24561AC7A46D00B59FAC /* Images.xcassets */; };
+		B22C245A1AC7A46D00B59FAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B22C24581AC7A46D00B59FAC /* LaunchScreen.xib */; };
+		B22C24661AC7A46D00B59FAC /* VideoStreamingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24651AC7A46D00B59FAC /* VideoStreamingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B22C24601AC7A46D00B59FAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B22C243E1AC7A46D00B59FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B22C24451AC7A46D00B59FAC;
+			remoteInfo = VideoStreaming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B22C24461AC7A46D00B59FAC /* VideoStreaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoStreaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22C244A1AC7A46D00B59FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22C244B1AC7A46D00B59FAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B22C244D1AC7A46D00B59FAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B22C244E1AC7A46D00B59FAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B22C24501AC7A46D00B59FAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B22C24511AC7A46D00B59FAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B22C24541AC7A46D00B59FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B22C24561AC7A46D00B59FAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B22C24591AC7A46D00B59FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B22C245F1AC7A46D00B59FAC /* VideoStreamingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoStreamingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22C24641AC7A46D00B59FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22C24651AC7A46D00B59FAC /* VideoStreamingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoStreamingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B22C24431AC7A46D00B59FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22C245C1AC7A46D00B59FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B22C243D1AC7A46D00B59FAC = {
+			isa = PBXGroup;
+			children = (
+				B22C24481AC7A46D00B59FAC /* VideoStreaming */,
+				B22C24621AC7A46D00B59FAC /* VideoStreamingTests */,
+				B22C24471AC7A46D00B59FAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B22C24471AC7A46D00B59FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22C24461AC7A46D00B59FAC /* VideoStreaming.app */,
+				B22C245F1AC7A46D00B59FAC /* VideoStreamingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22C24481AC7A46D00B59FAC /* VideoStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				B22C244D1AC7A46D00B59FAC /* AppDelegate.h */,
+				B22C244E1AC7A46D00B59FAC /* AppDelegate.m */,
+				B22C24501AC7A46D00B59FAC /* ViewController.h */,
+				B22C24511AC7A46D00B59FAC /* ViewController.m */,
+				B22C24531AC7A46D00B59FAC /* Main.storyboard */,
+				B22C24561AC7A46D00B59FAC /* Images.xcassets */,
+				B22C24581AC7A46D00B59FAC /* LaunchScreen.xib */,
+				B22C24491AC7A46D00B59FAC /* Supporting Files */,
+			);
+			path = VideoStreaming;
+			sourceTree = "<group>";
+		};
+		B22C24491AC7A46D00B59FAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22C244A1AC7A46D00B59FAC /* Info.plist */,
+				B22C244B1AC7A46D00B59FAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B22C24621AC7A46D00B59FAC /* VideoStreamingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B22C24651AC7A46D00B59FAC /* VideoStreamingTests.m */,
+				B22C24631AC7A46D00B59FAC /* Supporting Files */,
+			);
+			path = VideoStreamingTests;
+			sourceTree = "<group>";
+		};
+		B22C24631AC7A46D00B59FAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22C24641AC7A46D00B59FAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B22C24451AC7A46D00B59FAC /* VideoStreaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22C24691AC7A46D00B59FAC /* Build configuration list for PBXNativeTarget "VideoStreaming" */;
+			buildPhases = (
+				B22C24421AC7A46D00B59FAC /* Sources */,
+				B22C24431AC7A46D00B59FAC /* Frameworks */,
+				B22C24441AC7A46D00B59FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoStreaming;
+			productName = VideoStreaming;
+			productReference = B22C24461AC7A46D00B59FAC /* VideoStreaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B22C245E1AC7A46D00B59FAC /* VideoStreamingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22C246C1AC7A46D00B59FAC /* Build configuration list for PBXNativeTarget "VideoStreamingTests" */;
+			buildPhases = (
+				B22C245B1AC7A46D00B59FAC /* Sources */,
+				B22C245C1AC7A46D00B59FAC /* Frameworks */,
+				B22C245D1AC7A46D00B59FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22C24611AC7A46D00B59FAC /* PBXTargetDependency */,
+			);
+			name = VideoStreamingTests;
+			productName = VideoStreamingTests;
+			productReference = B22C245F1AC7A46D00B59FAC /* VideoStreamingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B22C243E1AC7A46D00B59FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "MacBook Pro";
+				TargetAttributes = {
+					B22C24451AC7A46D00B59FAC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B22C245E1AC7A46D00B59FAC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B22C24451AC7A46D00B59FAC;
+					};
+				};
+			};
+			buildConfigurationList = B22C24411AC7A46D00B59FAC /* Build configuration list for PBXProject "VideoStreaming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B22C243D1AC7A46D00B59FAC;
+			productRefGroup = B22C24471AC7A46D00B59FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B22C24451AC7A46D00B59FAC /* VideoStreaming */,
+				B22C245E1AC7A46D00B59FAC /* VideoStreamingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B22C24441AC7A46D00B59FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22C24551AC7A46D00B59FAC /* Main.storyboard in Resources */,
+				B22C245A1AC7A46D00B59FAC /* LaunchScreen.xib in Resources */,
+				B22C24571AC7A46D00B59FAC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22C245D1AC7A46D00B59FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B22C24421AC7A46D00B59FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22C24521AC7A46D00B59FAC /* ViewController.m in Sources */,
+				B22C244F1AC7A46D00B59FAC /* AppDelegate.m in Sources */,
+				B22C244C1AC7A46D00B59FAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22C245B1AC7A46D00B59FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22C24661AC7A46D00B59FAC /* VideoStreamingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B22C24611AC7A46D00B59FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B22C24451AC7A46D00B59FAC /* VideoStreaming */;
+			targetProxy = B22C24601AC7A46D00B59FAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B22C24531AC7A46D00B59FAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22C24541AC7A46D00B59FAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B22C24581AC7A46D00B59FAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22C24591AC7A46D00B59FAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B22C24671AC7A46D00B59FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B22C24681AC7A46D00B59FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B22C246A1AC7A46D00B59FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoStreaming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B22C246B1AC7A46D00B59FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoStreaming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B22C246D1AC7A46D00B59FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VideoStreamingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoStreaming.app/VideoStreaming";
+			};
+			name = Debug;
+		};
+		B22C246E1AC7A46D00B59FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VideoStreamingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoStreaming.app/VideoStreaming";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B22C24411AC7A46D00B59FAC /* Build configuration list for PBXProject "VideoStreaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22C24671AC7A46D00B59FAC /* Debug */,
+				B22C24681AC7A46D00B59FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22C24691AC7A46D00B59FAC /* Build configuration list for PBXNativeTarget "VideoStreaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22C246A1AC7A46D00B59FAC /* Debug */,
+				B22C246B1AC7A46D00B59FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B22C246C1AC7A46D00B59FAC /* Build configuration list for PBXNativeTarget "VideoStreamingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22C246D1AC7A46D00B59FAC /* Debug */,
+				B22C246E1AC7A46D00B59FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B22C243E1AC7A46D00B59FAC /* Project object */;
+}
