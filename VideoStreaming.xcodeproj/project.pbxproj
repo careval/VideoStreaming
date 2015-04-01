@@ -10,10 +10,34 @@
 		B22C244C1AC7A46D00B59FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C244B1AC7A46D00B59FAC /* main.m */; };
 		B22C244F1AC7A46D00B59FAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C244E1AC7A46D00B59FAC /* AppDelegate.m */; };
 		B22C24521AC7A46D00B59FAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24511AC7A46D00B59FAC /* ViewController.m */; };
-		B22C24551AC7A46D00B59FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22C24531AC7A46D00B59FAC /* Main.storyboard */; };
 		B22C24571AC7A46D00B59FAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22C24561AC7A46D00B59FAC /* Images.xcassets */; };
 		B22C245A1AC7A46D00B59FAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B22C24581AC7A46D00B59FAC /* LaunchScreen.xib */; };
 		B22C24661AC7A46D00B59FAC /* VideoStreamingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24651AC7A46D00B59FAC /* VideoStreamingTests.m */; };
+		B22C24751AC7A49700B59FAC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C246F1AC7A49700B59FAC /* Bolts.framework */; };
+		B22C24761AC7A49700B59FAC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24701AC7A49700B59FAC /* Parse.framework */; };
+		B22C24771AC7A49700B59FAC /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24711AC7A49700B59FAC /* ParseCrashReporting.framework */; };
+		B22C24781AC7A49700B59FAC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24721AC7A49700B59FAC /* ParseFacebookUtils.framework */; };
+		B22C24791AC7A49700B59FAC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24731AC7A49700B59FAC /* ParseFacebookUtilsV4.framework */; };
+		B22C247A1AC7A49700B59FAC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24741AC7A49700B59FAC /* ParseUI.framework */; };
+		B22C247C1AC7A58A00B59FAC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C247B1AC7A58A00B59FAC /* AudioToolbox.framework */; };
+		B22C247E1AC7A59200B59FAC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C247D1AC7A59200B59FAC /* CFNetwork.framework */; };
+		B22C24801AC7A59C00B59FAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C247F1AC7A59C00B59FAC /* CoreGraphics.framework */; };
+		B22C24821AC7A5A300B59FAC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24811AC7A5A300B59FAC /* CoreLocation.framework */; };
+		B22C24841AC7A5AB00B59FAC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24831AC7A5AB00B59FAC /* MobileCoreServices.framework */; };
+		B22C24861AC7A5B400B59FAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24851AC7A5B400B59FAC /* QuartzCore.framework */; };
+		B22C24881AC7A5BC00B59FAC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24871AC7A5BC00B59FAC /* Security.framework */; };
+		B22C248A1AC7A5C300B59FAC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24891AC7A5C300B59FAC /* StoreKit.framework */; };
+		B22C248C1AC7A5CE00B59FAC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C248B1AC7A5CE00B59FAC /* SystemConfiguration.framework */; };
+		B22C248E1AC7A5D500B59FAC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C248D1AC7A5D500B59FAC /* libz.dylib */; };
+		B22C24901AC7A5DF00B59FAC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C248F1AC7A5DF00B59FAC /* libsqlite3.dylib */; };
+		B22C24A11AC7C95200B59FAC /* Anime.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24A01AC7C95200B59FAC /* Anime.m */; };
+		B22C24A71AC7D5CE00B59FAC /* AnimeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24A61AC7D5CE00B59FAC /* AnimeCache.m */; };
+		B22C24AB1AC92CBB00B59FAC /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24AA1AC92CBB00B59FAC /* TitleViewController.m */; };
+		B22C24AD1AC9F84000B59FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22C24AC1AC9F84000B59FAC /* Main.storyboard */; };
+		B22C24B01ACA115300B59FAC /* VideoInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24AF1ACA115300B59FAC /* VideoInformation.m */; };
+		B22C24B21ACA21A300B59FAC /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24B11ACA21A300B59FAC /* ImageCache.m */; };
+		B22C24B51ACB241800B59FAC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22C24B41ACB241800B59FAC /* MediaPlayer.framework */; };
+		B22C24B81ACB28AE00B59FAC /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C24B71ACB28AE00B59FAC /* Map.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +58,42 @@
 		B22C244E1AC7A46D00B59FAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B22C24501AC7A46D00B59FAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B22C24511AC7A46D00B59FAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B22C24541AC7A46D00B59FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B22C24561AC7A46D00B59FAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B22C24591AC7A46D00B59FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B22C245F1AC7A46D00B59FAC /* VideoStreamingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoStreamingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22C24641AC7A46D00B59FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B22C24651AC7A46D00B59FAC /* VideoStreamingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoStreamingTests.m; sourceTree = "<group>"; };
+		B22C246F1AC7A49700B59FAC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B22C24701AC7A49700B59FAC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B22C24711AC7A49700B59FAC /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		B22C24721AC7A49700B59FAC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		B22C24731AC7A49700B59FAC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		B22C24741AC7A49700B59FAC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		B22C247B1AC7A58A00B59FAC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B22C247D1AC7A59200B59FAC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B22C247F1AC7A59C00B59FAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B22C24811AC7A5A300B59FAC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B22C24831AC7A5AB00B59FAC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B22C24851AC7A5B400B59FAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B22C24871AC7A5BC00B59FAC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B22C24891AC7A5C300B59FAC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B22C248B1AC7A5CE00B59FAC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B22C248D1AC7A5D500B59FAC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B22C248F1AC7A5DF00B59FAC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B22C249F1AC7C95200B59FAC /* Anime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anime.h; sourceTree = "<group>"; };
+		B22C24A01AC7C95200B59FAC /* Anime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anime.m; sourceTree = "<group>"; };
+		B22C24A51AC7D5CE00B59FAC /* AnimeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimeCache.h; sourceTree = "<group>"; };
+		B22C24A61AC7D5CE00B59FAC /* AnimeCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimeCache.m; sourceTree = "<group>"; };
+		B22C24A91AC92CBB00B59FAC /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		B22C24AA1AC92CBB00B59FAC /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		B22C24AC1AC9F84000B59FAC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B22C24AE1ACA115300B59FAC /* VideoInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoInformation.h; sourceTree = "<group>"; };
+		B22C24AF1ACA115300B59FAC /* VideoInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoInformation.m; sourceTree = "<group>"; };
+		B22C24B11ACA21A300B59FAC /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		B22C24B31ACA21AB00B59FAC /* ImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		B22C24B41ACB241800B59FAC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B22C24B61ACB28AE00B59FAC /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		B22C24B71ACB28AE00B59FAC /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +101,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22C24B51ACB241800B59FAC /* MediaPlayer.framework in Frameworks */,
+				B22C24901AC7A5DF00B59FAC /* libsqlite3.dylib in Frameworks */,
+				B22C248E1AC7A5D500B59FAC /* libz.dylib in Frameworks */,
+				B22C248C1AC7A5CE00B59FAC /* SystemConfiguration.framework in Frameworks */,
+				B22C248A1AC7A5C300B59FAC /* StoreKit.framework in Frameworks */,
+				B22C24881AC7A5BC00B59FAC /* Security.framework in Frameworks */,
+				B22C24861AC7A5B400B59FAC /* QuartzCore.framework in Frameworks */,
+				B22C24841AC7A5AB00B59FAC /* MobileCoreServices.framework in Frameworks */,
+				B22C24821AC7A5A300B59FAC /* CoreLocation.framework in Frameworks */,
+				B22C24801AC7A59C00B59FAC /* CoreGraphics.framework in Frameworks */,
+				B22C247E1AC7A59200B59FAC /* CFNetwork.framework in Frameworks */,
+				B22C247C1AC7A58A00B59FAC /* AudioToolbox.framework in Frameworks */,
+				B22C247A1AC7A49700B59FAC /* ParseUI.framework in Frameworks */,
+				B22C24761AC7A49700B59FAC /* Parse.framework in Frameworks */,
+				B22C24771AC7A49700B59FAC /* ParseCrashReporting.framework in Frameworks */,
+				B22C24781AC7A49700B59FAC /* ParseFacebookUtils.framework in Frameworks */,
+				B22C24751AC7A49700B59FAC /* Bolts.framework in Frameworks */,
+				B22C24791AC7A49700B59FAC /* ParseFacebookUtilsV4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +135,24 @@
 		B22C243D1AC7A46D00B59FAC = {
 			isa = PBXGroup;
 			children = (
+				B22C24B41ACB241800B59FAC /* MediaPlayer.framework */,
+				B22C248F1AC7A5DF00B59FAC /* libsqlite3.dylib */,
+				B22C248D1AC7A5D500B59FAC /* libz.dylib */,
+				B22C248B1AC7A5CE00B59FAC /* SystemConfiguration.framework */,
+				B22C24891AC7A5C300B59FAC /* StoreKit.framework */,
+				B22C24871AC7A5BC00B59FAC /* Security.framework */,
+				B22C24851AC7A5B400B59FAC /* QuartzCore.framework */,
+				B22C24831AC7A5AB00B59FAC /* MobileCoreServices.framework */,
+				B22C24811AC7A5A300B59FAC /* CoreLocation.framework */,
+				B22C247F1AC7A59C00B59FAC /* CoreGraphics.framework */,
+				B22C247D1AC7A59200B59FAC /* CFNetwork.framework */,
+				B22C247B1AC7A58A00B59FAC /* AudioToolbox.framework */,
+				B22C246F1AC7A49700B59FAC /* Bolts.framework */,
+				B22C24701AC7A49700B59FAC /* Parse.framework */,
+				B22C24711AC7A49700B59FAC /* ParseCrashReporting.framework */,
+				B22C24721AC7A49700B59FAC /* ParseFacebookUtils.framework */,
+				B22C24731AC7A49700B59FAC /* ParseFacebookUtilsV4.framework */,
+				B22C24741AC7A49700B59FAC /* ParseUI.framework */,
 				B22C24481AC7A46D00B59FAC /* VideoStreaming */,
 				B22C24621AC7A46D00B59FAC /* VideoStreamingTests */,
 				B22C24471AC7A46D00B59FAC /* Products */,
@@ -81,11 +171,22 @@
 		B22C24481AC7A46D00B59FAC /* VideoStreaming */ = {
 			isa = PBXGroup;
 			children = (
+				B22C24B31ACA21AB00B59FAC /* ImageCache.h */,
+				B22C24B11ACA21A300B59FAC /* ImageCache.m */,
+				B22C24A91AC92CBB00B59FAC /* TitleViewController.h */,
+				B22C24AA1AC92CBB00B59FAC /* TitleViewController.m */,
+				B22C24A81AC92C6E00B59FAC /* TitleView */,
+				B22C24A21AC7D14300B59FAC /* Cache */,
+				B22C249C1AC7C90400B59FAC /* Anime */,
 				B22C244D1AC7A46D00B59FAC /* AppDelegate.h */,
 				B22C244E1AC7A46D00B59FAC /* AppDelegate.m */,
+				B22C24AC1AC9F84000B59FAC /* Main.storyboard */,
+				B22C24B61ACB28AE00B59FAC /* Map.h */,
+				B22C24B71ACB28AE00B59FAC /* Map.m */,
 				B22C24501AC7A46D00B59FAC /* ViewController.h */,
 				B22C24511AC7A46D00B59FAC /* ViewController.m */,
-				B22C24531AC7A46D00B59FAC /* Main.storyboard */,
+				B22C24AE1ACA115300B59FAC /* VideoInformation.h */,
+				B22C24AF1ACA115300B59FAC /* VideoInformation.m */,
 				B22C24561AC7A46D00B59FAC /* Images.xcassets */,
 				B22C24581AC7A46D00B59FAC /* LaunchScreen.xib */,
 				B22C24491AC7A46D00B59FAC /* Supporting Files */,
@@ -117,6 +218,31 @@
 				B22C24641AC7A46D00B59FAC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B22C249C1AC7C90400B59FAC /* Anime */ = {
+			isa = PBXGroup;
+			children = (
+				B22C249F1AC7C95200B59FAC /* Anime.h */,
+				B22C24A01AC7C95200B59FAC /* Anime.m */,
+			);
+			name = Anime;
+			sourceTree = "<group>";
+		};
+		B22C24A21AC7D14300B59FAC /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				B22C24A51AC7D5CE00B59FAC /* AnimeCache.h */,
+				B22C24A61AC7D5CE00B59FAC /* AnimeCache.m */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		B22C24A81AC92C6E00B59FAC /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TitleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B22C24551AC7A46D00B59FAC /* Main.storyboard in Resources */,
+				B22C24AD1AC9F84000B59FAC /* Main.storyboard in Resources */,
 				B22C245A1AC7A46D00B59FAC /* LaunchScreen.xib in Resources */,
 				B22C24571AC7A46D00B59FAC /* Images.xcassets in Resources */,
 			);
@@ -219,8 +345,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22C24A11AC7C95200B59FAC /* Anime.m in Sources */,
+				B22C24AB1AC92CBB00B59FAC /* TitleViewController.m in Sources */,
 				B22C24521AC7A46D00B59FAC /* ViewController.m in Sources */,
+				B22C24B81ACB28AE00B59FAC /* Map.m in Sources */,
 				B22C244F1AC7A46D00B59FAC /* AppDelegate.m in Sources */,
+				B22C24B01ACA115300B59FAC /* VideoInformation.m in Sources */,
+				B22C24A71AC7D5CE00B59FAC /* AnimeCache.m in Sources */,
+				B22C24B21ACA21A300B59FAC /* ImageCache.m in Sources */,
 				B22C244C1AC7A46D00B59FAC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +376,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B22C24531AC7A46D00B59FAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B22C24541AC7A46D00B59FAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B22C24581AC7A46D00B59FAC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,6 +467,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VideoStreaming/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +481,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VideoStreaming/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

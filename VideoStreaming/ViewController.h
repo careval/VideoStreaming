@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "AnimeCache.h"
+#import "Anime.h"
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource,UISearchDisplayDelegate>
+@property(nonatomic) NSArray *arr;
+@property (nonatomic) NSMutableDictionary *results;
+@property(nonatomic)  AnimeCache *list;
 
 @end
 
