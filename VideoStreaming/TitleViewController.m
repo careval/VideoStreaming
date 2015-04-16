@@ -11,6 +11,14 @@
 #import "VideoInformation.h"
 #import <MediaPlayer/MediaPlayer.h>
 #import "Map.h"
+
+@interface TitleViewController ()
+
+@property MPMoviePlayerViewController *mpvc;
+@property NSInteger videoIndex;
+
+@end
+
 @implementation TitleViewController
 
 
@@ -38,7 +46,6 @@
         map.titleAnime = episodeTitle;
         map.animeUrl = [_local.episodeList objectAtIndex:i];
         [_arr addObject: map];
-        
         
     }
     
@@ -68,13 +75,53 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    Map *mapped = [_arr objectAtIndex:[indexPath row]];
+    _videoIndex = [indexPath row];
+    Map *mapped = [_arr objectAtIndex:_videoIndex];
     NSURL *m =[NSURL URLWithString:mapped.animeUrl];
-    MPMoviePlayerViewController* mpvc =
-    [[MPMoviePlayerViewController alloc] initWithContentURL: m];
-    mpvc.moviePlayer.shouldAutoplay = YES; // optional
-    [self presentMoviePlayerViewControllerAnimated:mpvc];
+    _mpvc = [[MPMoviePlayerViewController alloc] initWithContentURL: m];
+    _mpvc.moviePlayer.shouldAutoplay = YES; // optional
+    
+    // Remove Default Notification Observer
+    [[NSNotificationCenter defaultCenter] removeObserver:_mpvc name:MPMoviePlayerPlaybackDidFinishNotification object:_mpvc.moviePlayer];
+    // Add Own Notification Observer
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(movieFinishedPlaying:) name:MPMoviePlayerPlaybackDidFinishNotification object:_mpvc.moviePlayer];
+    
+    
+    
+    [self presentMoviePlayerViewControllerAnimated:_mpvc];
 }
+
+
+-(void)movieFinishedPlaying:(NSNotification*)notification {
+   
+    NSNumber *reason = [[notification userInfo] objectForKey:MPMoviePlayerPlaybackDidFinishReasonUserInfoKey];
+    switch ([reason intValue]) {
+        case MPMovieFinishReasonPlaybackEnded:
+            if(_videoIndex != ([_arr count] - 1)) {
+                _videoIndex = _videoIndex + 1;
+                Map *mapped = [_arr objectAtIndex:_videoIndex];
+                [_mpvc.moviePlayer setContentURL:[NSURL URLWithString:mapped.animeUrl]];
+                [_mpvc.moviePlayer play];
+            } else {
+                [self dismissMoviePlayerViewControllerAnimated];
+            }
+            break;
+        case MPMovieFinishReasonPlaybackError:
+            [self dismissMoviePlayerViewControllerAnimated];
+            break;
+        case MPMovieFinishReasonUserExited:
+            [self dismissMoviePlayerViewControllerAnimated];
+            break;
+        default:
+            break;
+    }
+    
+    
+}
+
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
